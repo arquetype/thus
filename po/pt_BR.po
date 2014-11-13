@@ -1,0 +1,1614 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Arnt <qtgzmanager@gmail.com>, 2014
+# Felipe van Schaik Willig <felipevsw@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: KaOS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-17 10:41-0400\n"
+"PO-Revision-Date: 2014-08-18 13:53+0000\n"
+"Last-Translator: Arnt <qtgzmanager@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/kaos/language/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: thus.py:123
+msgid ""
+"This installer must be run with administrative privileges and cannot "
+"continue without them."
+msgstr "O instalador deve rodar com privilégios de administrador e não pode continuar sem estes privilégios."
+
+#: thus.py:131
+#, python-format
+msgid ""
+"You cannot run two instances of this installer.\n"
+"\n"
+"If you are sure that another installer is not already running\n"
+"you can manually delete the file %s\n"
+"and run this installer again."
+msgstr "Você não pode rodar duas instâncias deste instalador.\n\nSe você tem certeza de que outro instalador não está rodando\nvocê pode manualmente deletar o arquivo %s\ne rodar o instalador novamente."
+
+#: thus.py:143
+#, python-format
+msgid "Thus installer version %s"
+msgstr "Thus instalador versão %s"
+
+#: thus.py:234
+msgid "KaOS Installer"
+msgstr "KaOS instalador"
+
+#: thus.py:290
+msgid "Quiting installer..."
+msgstr "Saindo do instalador..."
+
+#: thus.py:411
+msgid "Sets Thus log level to 'debug'"
+msgstr "Define o nível do log do Thus para 'debug'"
+
+#: thus.py:412
+msgid "Update Thus to the latest version (-uu will force the update)"
+msgstr "Atualiza o Thus para a última versão (-uu forcará o update)"
+
+#: thus.py:413
+msgid "Do not perform any changes (useful for developers)"
+msgstr "Não realizar nenhuma mudança (útil para desenvolvedores)"
+
+#: thus.py:414
+msgid "Show logging messages to stdout"
+msgstr "Mostra mensagens de log para stdout"
+
+#: thus.py:415
+msgid "Show options in development (DO NOT USE THIS!)"
+msgstr "Mostra opções em desenvolvimento (NÃO USE ISTO!)"
+
+#: src/installation/auto_partition.py:77 src/installation/auto_partition.py:86
+#: src/installation/process.py:457 src/installation/process.py:474
+#: src/installation/process.py:489
+#, python-format
+msgid "Unmounting %s"
+msgstr "Desmontando %s"
+
+#: src/installation/auto_partition.py:81 src/installation/auto_partition.py:90
+#, python-format
+msgid "Unmounting %s failed. Trying lazy arg."
+msgstr "A desmontagem de %s falhou. Tentando lazy arg."
+
+#: src/installation/auto_partition.py:119
+msgid "Can't delete existent LVM volumes (see below)"
+msgstr "Não é possível deletar os volumes LVM existentes (veja abaixo)"
+
+#: src/installation/auto_partition.py:129
+msgid "Can't close LUKS devices (see below)"
+msgstr "Não é possível fechar os dispositivos LUKS (veja abaixo)"
+
+#: src/installation/auto_partition.py:184
+#, python-format
+msgid "Unknown filesystem type %s"
+msgstr "Tipo desconhecido de sistema de arquivos %s"
+
+#: src/installation/auto_partition.py:194
+#, python-format
+msgid "Can't create filesystem %s"
+msgstr "Não é possível criar sistema de arquivos %s"
+
+#: src/installation/auto_partition.py:353
+#, python-format
+msgid "Thus will setup LUKS on device %s"
+msgstr "Thus configurará LUKS no dispositivo %s"
+
+#: src/installation/auto_partition.py:429
+#, python-format
+msgid "Total disk size: %dMiB"
+msgstr "Tamanho total do disco: %dMiB"
+
+#: src/installation/auto_partition.py:430
+#, python-format
+msgid "Boot partition size: %dMiB"
+msgstr "Tamanho da partição Boot: %dMiB"
+
+#: src/installation/auto_partition.py:433
+#, python-format
+msgid "LVM physical volume size: %dMiB"
+msgstr "Tamanho físico do volume LVM: %dMiB"
+
+#: src/installation/auto_partition.py:435
+#, python-format
+msgid "Swap partition size: %dMiB"
+msgstr "Tamanho da partição Swap: %dMiB"
+
+#: src/installation/auto_partition.py:436
+#, python-format
+msgid "Root partition size: %dMiB"
+msgstr "Tamanho da partição Root: %dMiB"
+
+#: src/installation/auto_partition.py:439
+#, python-format
+msgid "Home partition size: %dMiB"
+msgstr "Tamanho da partição Home: %dMiB"
+
+#: src/installation/auto_partition.py:468
+msgid ""
+"Setup cannot detect size of your device, please use advanced installation "
+"routine for partitioning and mounting devices."
+msgstr "O instalador não pode detectar o tamanho do seu dispositivo, por favor use a instalação avançada para particionar e montar dispositivos."
+
+#: src/installation/auto_partition.py:601
+#, python-format
+msgid "Will setup LVM on device %s"
+msgstr "Configurará LVM no dispositivo %s"
+
+#: src/bootinfo.py:54 src/bootinfo.py:66 src/bootinfo.py:72 src/bootinfo.py:86
+#: src/installation/alongside.py:220
+msgid "unknown"
+msgstr "desconhecido"
+
+#: src/canonical/misc.py:929
+#, python-format
+msgid "Can't set locale %s"
+msgstr "Não é possível configurar localidade %s"
+
+#: src/canonical/validation.py:132
+msgid "password is too short"
+msgstr "a senha é muito pequena"
+
+#: src/canonical/validation.py:135
+msgid "weak password"
+msgstr "senha fraca"
+
+#: src/canonical/validation.py:138
+msgid "fair password"
+msgstr "senha razoável"
+
+#: src/canonical/validation.py:141
+msgid "good password"
+msgstr "senha segura"
+
+#: src/canonical/validation.py:144
+msgid "strong password"
+msgstr "senha altamente segura"
+
+#: src/canonical/validation.py:159
+msgid "Passwords do not match"
+msgstr "Senhas não combinam"
+
+#: src/check.py:79
+msgid "System Check"
+msgstr "Verificação do Sistema"
+
+#: src/check.py:84
+#, python-format
+msgid "has at least %dGB available storage space"
+msgstr "tenha pelo menos %dGB de espaço disponível "
+
+#: src/check.py:89
+msgid "This is the absolute minimal to install, at least 25Gb is recommended."
+msgstr "Este é o mínimo absoluto para instalar, pelo menos 25Gb é recomendado."
+
+#: src/check.py:94
+msgid "is plugged in to a power source"
+msgstr "está conectado a uma fonte de energia"
+
+#: src/check.py:98
+msgid "has a minimum of 1Gb RAM available"
+msgstr "tenha no mínimo 1Gb de RAM disponível"
+
+#: src/check.py:102
+msgid "For best results, please ensure that this computer:"
+msgstr "Para melhores resultados, por favor certifique-se que este computador:"
+
+#: src/check.py:173
+msgid "We have Internet connection."
+msgstr "Temos conexão com a Internet."
+
+#: src/check.py:174
+msgid "We're connected to a power source."
+msgstr "Estamos conectados a uma fonte de energia."
+
+#: src/check.py:175
+msgid "We have enough disk space."
+msgstr "Temos espaço em disco suficiente."
+
+#: src/installation/advanced.py:218 src/installation/advanced.py:512
+#: src/installation/advanced.py:526
+msgid "free space"
+msgstr "espaço livre"
+
+#: src/installation/advanced.py:266
+msgid "It's not recommended to install grub in a partition"
+msgstr "Não é recomendado instalar o grub em uma partição"
+
+#: src/installation/advanced.py:294 src/installation/alongside.py:172
+msgid "Device"
+msgstr "Dispositivo"
+
+#: src/installation/advanced.py:297
+msgid "Type"
+msgstr "Digite"
+
+#: src/installation/advanced.py:300
+msgid "Mount point"
+msgstr "Ponto de montagem"
+
+#: src/installation/advanced.py:303
+msgid "Label"
+msgstr "Label"
+
+#: src/installation/advanced.py:309 src/installation/advanced.py:1643
+msgid "Format"
+msgstr "Formato"
+
+#: src/installation/advanced.py:312
+msgid "Size"
+msgstr "Tamanho"
+
+#: src/installation/advanced.py:315
+msgid "Used"
+msgstr "Usado"
+
+#: src/installation/advanced.py:318
+msgid "Flags"
+msgstr "Flags"
+
+#: src/installation/advanced.py:324
+msgid "SSD"
+msgstr "SSD"
+
+#: src/installation/advanced.py:493
+msgid "none"
+msgstr "nenhum"
+
+#: src/installation/advanced.py:548 src/installation/advanced.py:962
+#: src/installation/advanced.py:1501 src/installation/advanced.py:1594
+#: src/installation/advanced.py:1745 src/installation/advanced.py:1839
+msgid "extended"
+msgstr "estentido"
+
+#: src/installation/advanced.py:679 src/installation/advanced.py:932
+msgid "Can't use same mount point twice..."
+msgstr "Não é possível usar o mesmo ponto de montagem duas vezes..."
+
+#: src/installation/advanced.py:953
+msgid "Creating primary partition"
+msgstr "Criando partição primária"
+
+#: src/installation/advanced.py:964
+msgid "Creating extended partition"
+msgstr "Criando partição extendida"
+
+#: src/installation/advanced.py:970
+msgid "Creating logical partition"
+msgstr "Criando partição lógica"
+
+#: src/installation/advanced.py:1104
+msgid "Advanced installation mode"
+msgstr "Modo de instalação avançado"
+
+#: src/installation/advanced.py:1108 ui/installation_advanced.ui:1157
+msgid "Use this device for boot loader installation:"
+msgstr "Use este dispositivo para a instalação do carregador de inicialização:"
+
+#: src/installation/advanced.py:1113
+msgid "Mount checklist:"
+msgstr "Lista de montagem"
+
+#: src/installation/advanced.py:1119
+msgid "Root"
+msgstr "Root"
+
+#: src/installation/advanced.py:1123 ui/bootloader.ui:7
+msgid "Boot"
+msgstr "Boot"
+
+#: src/installation/advanced.py:1127
+msgid "EFI"
+msgstr "EFI"
+
+#: src/installation/advanced.py:1131
+msgid "Swap"
+msgstr "Swap"
+
+#: src/installation/advanced.py:1139
+msgid "New partition table"
+msgstr "Nova tabela de partição"
+
+#: src/installation/advanced.py:1147
+msgid "Change..."
+msgstr "Alterar..."
+
+#: src/installation/advanced.py:1152 ui/installation_advanced.ui:407
+msgid "Size:"
+msgstr "Tamanho:"
+
+#: src/installation/advanced.py:1156 ui/installation_advanced.ui:630
+msgid "Type:"
+msgstr "Tipo:"
+
+#: src/installation/advanced.py:1160 ui/installation_advanced.ui:647
+msgid "Primary"
+msgstr "Primário"
+
+#: src/installation/advanced.py:1164 ui/installation_advanced.ui:671
+msgid "Logical"
+msgstr "Lógico"
+
+#: src/installation/advanced.py:1168 ui/installation_advanced.ui:695
+msgid "Extended"
+msgstr "Estentido"
+
+#: src/installation/advanced.py:1172 ui/installation_advanced.ui:516
+msgid "Beginning of this space"
+msgstr "No início deste espaço"
+
+#: src/installation/advanced.py:1176 ui/installation_advanced.ui:540
+msgid "End of this space"
+msgstr "No final deste espaço"
+
+#: src/installation/advanced.py:1180 src/installation/advanced.py:1197
+#: ui/installation_advanced.ui:179 ui/installation_advanced.ui:438
+msgid "Use as:"
+msgstr "Usar como:"
+
+#: src/installation/advanced.py:1184 src/installation/advanced.py:1201
+#: ui/installation_advanced.ui:212 ui/installation_advanced.ui:476
+msgid "Mount point:"
+msgstr "Ponto de montagem:"
+
+#: src/installation/advanced.py:1188 src/installation/advanced.py:1205
+#: ui/installation_advanced.ui:249 ui/installation_advanced.ui:730
+msgid "Label (optional):"
+msgstr "Rótulo (opcional)"
+
+#: src/installation/advanced.py:1192
+msgid "Encryption Options..."
+msgstr "Opções de criptografia..."
+
+#: src/installation/advanced.py:1209 ui/installation_advanced.ui:276
+msgid "Format:"
+msgstr "Formato:"
+
+#: src/installation/advanced.py:1214
+msgid "Partition Table Type:"
+msgstr "Tipo de tabela de partição:"
+
+#: src/installation/advanced.py:1219
+msgid "Create Partition Table"
+msgstr "Criar tabela de partição"
+
+#: src/installation/advanced.py:1222 src/installation/alongside.py:150
+#: src/installation/automatic.py:103
+msgid "Install now!"
+msgstr "Instalar agora!"
+
+#: src/installation/advanced.py:1308
+#, python-format
+msgid "Creating a new partition table of type %s for disk %s"
+msgstr "Criando uma nova tabela de partição do tipo %s para o disco %s"
+
+#: src/installation/advanced.py:1318
+msgid ""
+"GRUB requires a BIOS Boot Partition (2 MiB, no filesystem, \"EF02\" type code in gdisk or \"bios_grub\" flag in GNU Parted) in BIOS systems to embed its core.img file due to lack of post-MBR embed gap in GPT disks.\n"
+"\n"
+"Thus will create this special partition for you now."
+msgstr "GRUB requer uma partição BIOS Boot (2MB, sem sistema de arquivos, código do tipo \"EF02\" no gdisk ou a marca \"bios_grub\" no GNU Parted) em sistemas BIOS para incorporar seu arquivo core.img devido à falta de lacuna pós-MBR  em discos GPT.\n\nThus criará esta partição especial para você agora."
+
+#: src/installation/advanced.py:1350
+msgid "Can't create BIOS GPT Boot partition!"
+msgstr "Não é possível criar partição de boot BIOS GPT!"
+
+#: src/installation/advanced.py:1377
+msgid "Couldn't create BIOS GPT Boot partition"
+msgstr "Não foi possível criar partição de Boot BIOS GPT"
+
+#: src/installation/advanced.py:1540
+#, python-format
+msgid ""
+"%s is mounted as swap.\n"
+"To continue it has to be unmounted.\n"
+"Click Yes to unmount, or No to return\n"
+msgstr "%s está montado como swap.\nPara continuar ela precisa ser desmontada.\nPressione Sim para desmontar, ou Não para retornar\n"
+
+#: src/installation/advanced.py:1544
+#, python-format
+msgid ""
+"%s is mounted in '%s'.\n"
+"To continue it has to be unmounted.\n"
+"Click Yes to unmount, or No to return\n"
+msgstr "%s está montada em '%s'.\nPara continuar ela precisa ser desmontada.\nPressione Sim para desmontar, ou Não para retornar\n"
+
+#: src/installation/advanced.py:1567
+#, python-format
+msgid "%s shows as mounted (busy) but it has no mount point"
+msgstr "%s mostra como montada (ocupada) mas não tem nenhum ponto de montagem"
+
+#: src/installation/advanced.py:1573
+msgid ""
+"The root partition is not marked to be formatted.\n"
+"This might create problems. Should it be marked to be formatted now?"
+msgstr "A partição raiz não está marcada para ser formatada.\nIsto pode levar a problemas. Ela pode ser marcada para ser formatada agora?"
+
+#: src/installation/advanced.py:1636
+#, python-format
+msgid "Partition %s will be deleted"
+msgstr "A partição %s será deletada"
+
+#: src/installation/advanced.py:1643
+msgid "Partition"
+msgstr "Partição"
+
+#: src/installation/advanced.py:1643
+msgid "New"
+msgstr "Nova"
+
+#: src/installation/advanced.py:1643
+msgid "Relabel"
+msgstr "Rotular novamente"
+
+#: src/installation/advanced.py:1643
+msgid "Mount"
+msgstr "Montar"
+
+#: src/installation/advanced.py:1664
+msgid "These disks will have partition actions:"
+msgstr "Estes discos terão ações de partição:"
+
+#: src/installation/advanced.py:1724
+#, python-format
+msgid "Saving changes done in %s"
+msgstr "Salvando mudanças feitas em %s"
+
+#: src/installation/advanced.py:1748
+#, python-format
+msgid "Creating %s filesystem in %s labeled %s"
+msgstr "Criando sistema de arquivos %s em %s rotulado %s"
+
+#: src/installation/advanced.py:1790
+#, python-format
+msgid "Setting boot flag in %s partition"
+msgstr "Definindo marca de boot na partição %s"
+
+#: src/installation/advanced.py:1809
+#, python-format
+msgid "Couldn't format partition '%s' with label '%s' as '%s'"
+msgstr "Não foi possível formatar partição '%s' com marca '%s' como '%s'"
+
+#: src/installation/advanced.py:1850 src/installation/alongside.py:499
+#: src/installation/automatic.py:226
+msgid "Thus will not install any boot loader"
+msgstr "Thus não instalará nenhum gerenciador de inicialização"
+
+#: src/installation/advanced.py:1860
+#, python-format
+msgid "KaOS will install the bootloader of type %s in %s"
+msgstr "KaOS instalará o gerenciador de inicialização do tipo %s em %s"
+
+#: src/installation/advanced.py:1876 src/installation/alongside.py:512
+#: src/installation/automatic.py:247
+msgid "Testing mode. Thus won't apply any changes to your system!"
+msgstr "Modo de teste. Thus não aplicará nenhuma mudança no seu sistema!"
+
+#: src/installation/alongside.py:115
+#, python-format
+msgid "Can't load %s css"
+msgstr "Não é possível carregar o css %s"
+
+#: src/installation/alongside.py:142
+msgid "Choose which OS you want to install KaOS next to"
+msgstr "Escolha perto de qual SO você deseja instalar o KaOS"
+
+#: src/installation/alongside.py:146
+msgid "KaOS alongside another OS"
+msgstr "KaOS ao lado de outro SO"
+
+#: src/installation/alongside.py:175
+msgid "Detected OS"
+msgstr "Detectar SO"
+
+#: src/installation/alongside.py:178
+msgid "Filesystem"
+msgstr "Sistema de arquivos"
+
+#: src/installation/alongside.py:196
+msgid "pyparted3 not found!"
+msgstr "pyparted3 não encontrado!"
+
+#: src/installation/alongside.py:224
+msgid "Unable to create list of partitions for alongside installation."
+msgstr "Não foi possível criar lista de partições para instalação em conjunto."
+
+#: src/installation/alongside.py:268
+msgid "Can't shrink the partition (maybe it's nearly full?)"
+msgstr "Não é possível encolher a partição (talvez ela esteja quase cheia?)"
+
+#: src/installation/alongside.py:356
+msgid "There are too many primary partitions, can't create a new one"
+msgstr "Existem muitas partições primárias, não é possível criar uma nova"
+
+#: src/installation/alongside.py:390
+#, python-format
+msgid "Can't shrink %s(%s) filesystem"
+msgstr "Não é possível encolher o sistema de arquivos %s(%s)"
+
+#: src/installation/alongside.py:399
+#, python-format
+msgid "Can't shrink %s(%s) partition"
+msgstr "Não é possível encolher a partição %s(%s)"
+
+#: src/installation/alongside.py:418 src/installation/alongside.py:470
+msgid "Cannot create new partition."
+msgstr "Não é possível criar nova partição."
+
+#: src/installation/alongside.py:458
+msgid "Cannot create new swap partition."
+msgstr "Não é possível criar nova partição swap."
+
+#: src/installation/alongside.py:495 src/installation/automatic.py:222
+#, python-format
+msgid "Thus will install the bootloader of type %s in %s"
+msgstr "Thus irá instalar o gerenciador de inicialização %s em %s"
+
+#: src/installation/ask.py:99
+msgid "Installation type"
+msgstr "Tipo de instalação"
+
+#: src/installation/ask.py:113 ui/installation_ask.ui:34
+msgid "Erase disk and install KaOS (automatic)"
+msgstr "Apagar disco e instalar KaOS (automático)"
+
+#: src/installation/ask.py:116
+msgid "Warning: This will delete all data on your disk"
+msgstr "Aviso: Isto irá apagar todos os dados no seu disco"
+
+#: src/installation/ask.py:122
+msgid "Encrypt this installation for increased security."
+msgstr "Criptografe esta instalação para maior segurança."
+
+#: src/installation/ask.py:126
+msgid "You will be asked for the encryption key in the next step."
+msgstr "Você será solicitado pela chave de criptografia no próximo passo."
+
+#: src/installation/ask.py:131
+msgid "Use LVM with this installation."
+msgstr "Usar LVM nesta instalação."
+
+#: src/installation/ask.py:135
+msgid ""
+"This will set up LVM allowing you to make snapshots and change partition "
+"sizes in a straightforward way."
+msgstr "Isto irá configurar LVM permitindo que você faça snapshots e mude o tamanho das partições de uma forma simples."
+
+#: src/installation/ask.py:140 ui/installation_ask.ui:134
+msgid "Set your Home in a different partition/volume"
+msgstr "Configure sua Home em uma partição/volume diferente"
+
+#: src/installation/ask.py:144
+msgid ""
+"This will setup your /home directory in a different partition or volume."
+msgstr "Isto irá configurar seu diretório /home em uma partição ou volume diferente."
+
+#: src/installation/ask.py:152 src/installation/ask.py:154
+#, python-format
+msgid "Install KaOS alongside %s"
+msgstr "Instalar KaOS em conjunto com %s"
+
+#: src/installation/ask.py:161
+msgid "Manage your partitions and where to install KaOS (advanced)"
+msgstr "Gerenciar suas partições e onde instalar Kaos (avançado)"
+
+#: src/installation/ask.py:164
+msgid ""
+"You will be able to create/delete partitions, choose where to install KaOS "
+"and also choose additional mount points."
+msgstr "Você será capaz de criar/apagar partições, escolher onde instalar Kaos e também escolher pontos de montagem adicionais."
+
+#: src/installation/ask.py:190
+msgid "KaOS installation will be encrypted using LUKS"
+msgstr "A instalação do KaOS será criptografada usando LUKS"
+
+#: src/installation/ask.py:193
+msgid "KaOS will be installed using LVM volumes"
+msgstr "KaOS será instalado usando volumes LVM"
+
+#: src/installation/ask.py:195
+msgid "KaOS will be installed using a separate /home volume."
+msgstr "KaOS será instalado usando um volume /home separado."
+
+#: src/installation/ask.py:197
+msgid "KaOS will be installed using a separate /home partition."
+msgstr "KaOS será instalado usando uma partição /home separada."
+
+#: src/installation/automatic.py:75
+msgid "Automatic installation mode"
+msgstr "Modo automático de instalação"
+
+#: src/installation/automatic.py:79 ui/installation_automatic.ui:96
+msgid "Select drive:"
+msgstr "Selecione disco:"
+
+#: src/installation/automatic.py:83
+msgid ""
+"WARNING! This installation mode will overwrite everything on your drive!"
+msgstr "AVISO! Este modo de instalação irá sobrescrever tudo em seu disco!"
+
+#: src/installation/automatic.py:88 ui/installation_automatic.ui:59
+msgid ""
+"Please choose the drive where you want to install KaOS\n"
+"and click the button below to start the process."
+msgstr "Por favor escolha o disco onde você quer instalar KaOS\ne clique no botão abaixo para iniciar o processo."
+
+#: src/installation/automatic.py:93 ui/installation_automatic.ui:176
+msgid "Encryption Password:"
+msgstr "Senha de criptografia:"
+
+#: src/installation/automatic.py:97 src/user_info.py:124
+#: ui/installation_automatic.ui:161 ui/user_info.ui:80
+msgid "Confirm your password:"
+msgstr "Confirme sua senha:"
+
+#: src/installation/automatic.py:101 src/user_info.py:177
+#: ui/installation_automatic.ui:258 ui/user_info.ui:422
+msgid "Show password"
+msgstr "Mostrar senha"
+
+#: src/installation/automatic.py:164
+msgid "A LUKS password has been set"
+msgstr "Uma senha LUKS foi configurada"
+
+#: src/installation/automatic.py:166
+#, python-format
+msgid "Automatic install on %s"
+msgstr "Instalar automaticamente em %s"
+
+#: src/installation/automatic.py:199
+#, python-format
+msgid ""
+"Do you really want to proceed and delete all your content on your hard drive?\n"
+"\n"
+"%s"
+msgstr "Você realmente gostaria de proceder e apagar todo o conteúdo em seu disco rígido?\n\n%s"
+
+#: src/installation/automatic.py:211
+#, python-format
+msgid "Thus will use %s as installation device"
+msgstr "Thus irá usar %s como dispositivo de instalação"
+
+#: src/installation/process.py:94
+#, python-format
+msgid "Copying '/%s'"
+msgstr "Copiando '/%s'"
+
+#: src/installation/process.py:175
+#, python-format
+msgid "Installing using the '%s' method"
+msgstr "Instalando usando o método '%s'"
+
+#: src/installation/process.py:252
+#, python-format
+msgid "Creating partitions and their filesystems in %s"
+msgstr "Criando partições e seus sistemas de arquivos em %s"
+
+#: src/installation/process.py:273
+msgid "Error creating partitions and their filesystems"
+msgstr "Erro ao criar partições e seus sistemas de arquivos"
+
+#: src/installation/process.py:275 src/installation/process.py:348
+#: src/installation/process.py:360 src/installation/process.py:665
+#, python-format
+msgid "Command %s has failed."
+msgstr "Comando %s falhou."
+
+#: src/installation/process.py:277 src/installation/process.py:324
+#: src/installation/process.py:350 src/installation/process.py:362
+#: src/installation/process.py:385 src/installation/process.py:667
+#, python-format
+msgid "Output : %s"
+msgstr "Saída : %s"
+
+#: src/installation/process.py:310 src/installation/process.py:341
+#, python-format
+msgid "Mounting partition %s into %s directory"
+msgstr "Montando partição %s no diretório %s"
+
+#: src/installation/process.py:316
+#, python-format
+msgid "Mounting partition %s into %s/boot directory"
+msgstr "Montando partição %s no diretório %s/boot"
+
+#: src/installation/process.py:320
+msgid "Couldn't mount root and boot partitions"
+msgstr "Não foi possível montar partições raiz e boot"
+
+#: src/installation/process.py:322 src/installation/process.py:383
+#, python-format
+msgid "Command %s has failed"
+msgstr "Comando %s falhou"
+
+#: src/installation/process.py:346
+#, python-format
+msgid "Can't mount %s in %s"
+msgstr "Não é possível montar %s em %s"
+
+#: src/installation/process.py:354
+#, python-format
+msgid "Mounting swap %s"
+msgstr "Montando %s swap"
+
+#: src/installation/process.py:358
+#, python-format
+msgid "Can't mount %s"
+msgstr "Não é possível montar %s"
+
+#: src/installation/process.py:373
+#, python-format
+msgid "%s deleted"
+msgstr "%s apagado"
+
+#: src/installation/process.py:381
+msgid "Can't create necessary directories on destination system"
+msgstr "Não é possível criar diretórios necessário no sistema destino"
+
+#: src/installation/process.py:393
+msgid "Install System ..."
+msgstr "Instalar Sistema ..."
+
+#: src/installation/process.py:398
+msgid "System installed."
+msgstr "Sistema instalado."
+
+#: src/installation/process.py:400
+msgid "Configuring system ..."
+msgstr "Configurando sistema ..."
+
+#: src/installation/process.py:402
+msgid "System configured."
+msgstr "Sistema configurado."
+
+#: src/installation/process.py:406
+msgid "Installing boot loader ..."
+msgstr "Instalando gerenciador de inicialização ..."
+
+#: src/installation/process.py:440
+#, python-format
+msgid "Can't copy Thus log to %s"
+msgstr "Não é possível copiar o log do Thus para %s"
+
+#: src/installation/process.py:446
+#, python-format
+msgid "Can't copy installation log to %s"
+msgstr "Não é possível copiar o log de instalação para %s"
+
+#: src/installation/process.py:465 src/installation/process.py:484
+#: src/installation/process.py:498
+#, python-format
+msgid "Can't unmount %s"
+msgstr "Não é possível desmontar %s"
+
+#: src/installation/process.py:500
+msgid "Installation finished successfully."
+msgstr "Instalação concluída com sucesso."
+
+#: src/installation/process.py:536
+msgid "Base filesystem does not exist! Critical error (exiting)."
+msgstr "Sistema de arquivos base não existe! Erro crítico (saindo)"
+
+#: src/installation/process.py:550
+#, python-format
+msgid "%s is already mounted at %s as %s"
+msgstr "%s já está montado em %s como %s"
+
+#: src/installation/process.py:567
+msgid "Indexing files to be copied ..."
+msgstr "Indexando arquivos para serem copiados ..."
+
+#: src/installation/process.py:572
+msgid "Extracting root-image ..."
+msgstr "Extraindo imagem-raiz ..."
+
+#: src/installation/process.py:597
+#, python-format
+msgid "Restoring meta-information on %s"
+msgstr "Restaurando meta-informação em %s"
+
+#: src/installation/process.py:613
+msgid "Special dirs already mounted."
+msgstr "Diretórios especiais já montados."
+
+#: src/installation/process.py:647
+msgid "Special dirs are not mounted. Skipping."
+msgstr "Diretórios especiais não estão montados. Ignorando."
+
+#: src/installation/process.py:664 src/installation/process.py:670
+#, python-format
+msgid "Unable to umount %s"
+msgstr "Não é possível montar %s"
+
+#: src/installation/process.py:692
+#, python-format
+msgid "Error running command: %s"
+msgstr "Erro ao executar comando: %s"
+
+#: src/installation/process.py:725
+msgid "Can't copy network configuration files"
+msgstr "Não é possível copiar arquivos de configuração de rede"
+
+#: src/installation/process.py:731
+msgid "Creating /etc/fstab ..."
+msgstr "Criando /etc/fstab ..."
+
+#: src/installation/process.py:756 src/installation/process.py:817
+#, python-format
+msgid "Added to fstab : UUID=%s %s %s %s 0 %s"
+msgstr "Adicionado ao fstab : UUID=%s %s %s %s 0 %s"
+
+#: src/installation/process.py:770
+#, python-format
+msgid "Added to crypttab : %s"
+msgstr "Adicionado ao crypttab : %s"
+
+#: src/installation/process.py:774
+#, python-format
+msgid "Added to fstab : /dev/mapper/cryptKaOSHome %s %s %s 0 %s"
+msgstr "Adicionado ao fstab : /dev/mapper/cryptKaOSHome %s %s %s 0 %s"
+
+#: src/installation/process.py:821
+msgid "Added to fstab : tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0"
+msgstr "Adicionado ao fstab : tmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0"
+
+#: src/installation/process.py:831
+msgid "Installing bootloader ..."
+msgstr "Instalando gerenciador de inicialização ..."
+
+#: src/installation/process.py:924
+msgid "ERROR on preparing 'etc/grub.d'-folder."
+msgstr "ERRO ao preparar a pasta 'etc/grub.d'."
+
+#: src/installation/process.py:932
+#, python-format
+msgid "Installing GRUB(2) BIOS boot loader in %s"
+msgstr "Instalando gerenciador de inicialização de BIOS GRUB(2) em %s"
+
+#: src/installation/process.py:963
+msgid "GRUB(2) BIOS has been successfully installed."
+msgstr "GRUB(2) BIOS foi instalado com sucesso."
+
+#: src/installation/process.py:966
+msgid "ERROR installing GRUB(2) BIOS."
+msgstr "ERRO ao instalar GRUB(2) BIOS."
+
+#: src/installation/process.py:983
+#, python-format
+msgid "Installing GRUB(2) UEFI %s boot loader"
+msgstr "Instalando gerenciador de inicialização UEFI %s GRUB(2)"
+
+#: src/installation/process.py:997
+msgid "Installing Grub2 locales."
+msgstr "Instalando localizações do Grub2."
+
+#: src/installation/process.py:1010
+#, python-format
+msgid "No OEM loader found in %s. Copying Grub(2) into dir."
+msgstr "Nenhum carregador OEM encontrado em %s. Copiando Grub(2) no dir."
+
+#: src/installation/process.py:1015
+msgid "Copying Grub(2) into OEM dir failed. File Not Found."
+msgstr "Cópia do Grub(2) no dir OEM falhou. Arquivo Não Encontrado."
+
+#: src/installation/process.py:1017
+msgid "Copying Grub(2) into OEM dir failed. File Exists."
+msgstr "Cópia do Grub(2) no dir OEM falhou. Arquivo Existente."
+
+#: src/installation/process.py:1019
+msgid "Copying Grub(2) into OEM dir failed. Unknown Error."
+msgstr "Cópia do Grub(2) no dir OEM falhou. Erro Desconhecido."
+
+#: src/installation/process.py:1037
+msgid "Generating grub.cfg"
+msgstr "Gerando grub.cfg"
+
+#: src/installation/process.py:1044
+msgid ""
+"grub-mkconfig appears to be hung. Killing grub-mount and os-prober so we can"
+" continue."
+msgstr "grub-mkconfig aparenta estar suspenso. Termiando grub-moun e os-prober para que possamos continuar."
+
+#: src/installation/process.py:1052
+msgid "GRUB(2) UEFI has been successfully installed."
+msgstr "GRUB(2) UEFI foi instalado com sucesso."
+
+#: src/installation/process.py:1055
+msgid "ERROR installing GRUB(2) UEFI."
+msgstr "ERRO ao instalar GRUB(2) UEFI."
+
+#: src/installation/process.py:1070
+msgid "ERROR installing GRUB(2) locale."
+msgstr "ERRO ao instalar localizações do GRUB(2)."
+
+#: src/installation/process.py:1104
+msgid "Can't freeze/unfreeze xfs system"
+msgstr "Não foi possível congelar/descongelar o sistema de arquivos xfs"
+
+#: src/installation/process.py:1110
+#, python-format
+msgid "Enabled %s service."
+msgstr "Serviço %s habilitado."
+
+#: src/installation/process.py:1117
+#, python-format
+msgid "Error creating password hash for user %s"
+msgstr "Erro ao criar hash de senha para o usuário %s"
+
+#: src/installation/process.py:1123
+#, python-format
+msgid "Error changing password for user %s"
+msgstr "Erro ao alterar a senha do usuário %s"
+
+#: src/installation/process.py:1135
+msgid "Setting hooks and modules in mkinitcpio.conf"
+msgstr "Configurando hooks e módulos em mkinitcpio.conf"
+
+#: src/installation/process.py:1226
+#, python-format
+msgid "%s: Enable automatic login for user %s."
+msgstr "%s: Habilitar login automático para o usuário %s."
+
+#: src/installation/process.py:1278 src/installation/process.py:1289
+msgid "Configuring your new system"
+msgstr "Configurando seu novo sistema"
+
+#: src/installation/process.py:1281
+msgid "fstab file generated."
+msgstr "Arquivo fstab gerado."
+
+#: src/installation/process.py:1287
+msgid "Network configuration copied."
+msgstr "Configuração de rede copiada."
+
+#: src/installation/process.py:1313
+msgid "Time zone set."
+msgstr "Fuso horário ajustado."
+
+#: src/installation/process.py:1334
+#, python-format
+msgid "Sudo configuration for user %s done."
+msgstr "Configuração do sudo realizada para o usuário %s."
+
+#: src/installation/process.py:1344
+#, python-format
+msgid "User %s added."
+msgstr "Usuário %s adicionado."
+
+#: src/installation/process.py:1356
+#, python-format
+msgid "Hostname  %s set."
+msgstr "Hostname %s ajustado."
+
+#: src/installation/process.py:1361
+msgid "Set root password."
+msgstr "Configurar a senha do administrador."
+
+#: src/installation/process.py:1364
+msgid "Set the same password to root."
+msgstr "Configurar a mesma senha para o administrador."
+
+#: src/installation/process.py:1370
+msgid "Generating locales ..."
+msgstr "Gerando localizações ..."
+
+#: src/installation/process.py:1392
+msgid "Adjusting hardware clock ..."
+msgstr "Configurando o relógio ..."
+
+#: src/installation/process.py:1401
+msgid "Configuring hardware ..."
+msgstr "Configurando o hardware ..."
+
+#: src/installation/process.py:1475
+msgid "Configure display manager ..."
+msgstr "Configurar gerenciador de exibição ..."
+
+#: src/installation/process.py:1487
+msgid "Configure System ..."
+msgstr "Configurar Sistema ..."
+
+#: src/installation/process.py:1516
+msgid "Configuring package manager"
+msgstr "Configurando o gerenciador de pacotes"
+
+#: src/installation/process.py:1570
+msgid "Running mkinitcpio ..."
+msgstr "Executando mkinitcpio ..."
+
+#: src/installation/process.py:1573
+msgid "Running mkinitcpio - done"
+msgstr "Executando mkinitcpio - Finalizado"
+
+#: src/installation/process.py:1583
+msgid "Encrypting user home dir ..."
+msgstr "Criptografando o diretório home do usuário ..."
+
+#: src/installation/process.py:1585
+msgid "User home dir encrypted"
+msgstr "Diretório home do usuário criptografado"
+
+#: src/keymap.py:67
+msgid "Select your keyboard layout"
+msgstr "Selecione seu layout de teclado"
+
+#: src/keymap.py:71
+msgid "Type here to test your keyboard"
+msgstr "Digite aqui para testar seu teclado"
+
+#: src/keymap.py:78
+msgid "Layouts"
+msgstr "Layouts"
+
+#: src/keymap.py:84
+msgid "Variants"
+msgstr "Variantes"
+
+#: src/keymap.py:103
+#, python-format
+msgid "keyboard_layout is %s"
+msgstr "Layout de teclado é %s"
+
+#: src/language.py:78
+msgid "Please choose your language:"
+msgstr "Por favor escolha seu idioma:"
+
+#: src/language.py:83
+msgid "Notice: This Installer is beta software."
+msgstr "Observação: Este Instalador é um software beta."
+
+#: src/language.py:84
+msgid ""
+"It is beta software that is under active development. \n"
+"It does not yet properly handle RAID, btrfs subvolumes, or other  \n"
+"advanced setups. Please proceed with caution as data loss is possible! \n"
+"\n"
+"If you find any bugs, please report them at <a href='https://github.com/KaOSx/thus/issues'>installer issues</a>"
+msgstr "Trata-se de um software beta em constante desenvolvimento.\nEle ainda não lida muito bem com RAID, subvolumes btrfs ou outras\nconfigurações avançadas. Por favor, proceda com cautela uma vez que a perda de dados é possível!\n\nNo caso de encontrar algum erro, por favor relate-os em <a href='https://github.com/KaOSx/thus/issues'>Problemas com o instalador</a>"
+
+#: src/language.py:91
+msgid "Welcome to KaOS!"
+msgstr "Bem vindo ao KaOS!"
+
+#: src/language.py:108
+msgid "Languages"
+msgstr "Idiomas"
+
+#: src/language.py:128
+#, python-format
+msgid "Can't find translation file for the %s language"
+msgstr "Não foi possível encontrar o arquivo de tradução para o idioma %s"
+
+#: src/location.py:64
+msgid "Select your location"
+msgstr "Selecione sua localidade"
+
+#: src/location.py:68
+msgid ""
+"The selected location will be used to help select the system locale.\n"
+"Normally this should be the country where you live.\n"
+"This is a shortlist of locations based on the language you selected."
+msgstr "A localização selecionada será usada para ajudar a selecionar o locale do sistema.\nNormalmente este deveria ser o país onde você mora.\nEsta é uma breve lista de localizações baseada no idioma selecionado."
+
+#: src/location.py:73
+msgid "Country, territory or area:"
+msgstr "País, território ou área:"
+
+#: src/parted3/fs_module.py:148
+#, python-format
+msgid "Can't verify if %s is a Solid State Drive or not"
+msgstr "Não foi possível verificar se %s é um Disco de Estado Sólido ou não"
+
+#: src/parted3/fs_module.py:173
+#, python-format
+msgid "Sorry but filesystem %s can't be resized"
+msgstr "Desculpe mas o sistema de arquivos %s não pode ser redimensionado"
+
+#: src/parted3/lvm.py:75
+#, python-format
+msgid "Can't remove logical volume %s"
+msgstr "Não foi possível remover o volume lógico %s"
+
+#: src/parted3/lvm.py:93
+#, python-format
+msgid "Can't remove volume group %s"
+msgstr "Não foi possível remover o grupo de volume %s"
+
+#: src/parted3/lvm.py:105
+#, python-format
+msgid "Can't remove physical volume %s"
+msgstr "Não foi possível remover o volume físico %s"
+
+#: src/parted3/partition_module.py:106
+#, python-format
+msgid "Adding %s to disk_dic"
+msgstr "Adicionando %s ao disk_dic"
+
+#: src/parted3/partition_module.py:108
+#, python-format
+msgid "Unrecognised disk label in device %s."
+msgstr "Rótulo de disco não reconhecido no dispositivo %s."
+
+#: src/parted3/partition_module.py:112
+#, python-format
+msgid ""
+"Exception: %s.\n"
+"For more information take a look at /tmp/thus.log"
+msgstr "Exceção: %s.\nPara maiores informações dê uma olhada em /tmp/thus.log"
+
+#: src/parted3/partition_module.py:179
+#, python-format
+msgid "Can't delete partition %s"
+msgstr "Não foi possível excluir a partição %s"
+
+#: src/parted3/partition_module.py:230
+msgid "Partition is too large!"
+msgstr "A partição é muito grande!"
+
+#: src/parted3/partition_module.py:290
+#, python-format
+msgid "Can't detect used space from %s"
+msgstr "Não foi possível detectar o espaço utilizado de %s"
+
+#: src/parted3/used_space.py:39
+#, python-format
+msgid "Can't detect used space of NTFS partition %s"
+msgstr "Não foi possível detectar o espaço utilizado da partição NTFS %s"
+
+#: src/parted3/used_space.py:65
+#, python-format
+msgid "Can't detect used space of EXTFS partition %s"
+msgstr "Não foi possível detectar o espaço utilizado da partição EXTFS %s"
+
+#: src/parted3/used_space.py:94
+#, python-format
+msgid "Can't detect used space of FAT partition %s"
+msgstr "Não foi possível detectar o espaço utilizado da partição FAT %s"
+
+#: src/parted3/used_space.py:125
+#, python-format
+msgid "Can't detect used space of JFS partition %s"
+msgstr "Não foi possível detectar o espaço utilizado da partição JFS %s"
+
+#: src/parted3/used_space.py:149
+#, python-format
+msgid "Can't detect used space of REISERFS partition %s"
+msgstr "Não foi possível detectar o espaço utilizado da partição REISERFS %s"
+
+#: src/parted3/used_space.py:175
+#, python-format
+msgid "Can't detect used space of BTRFS partition %s"
+msgstr "Não foi possível detectar o espaço utilizado da partição BTRFS %s"
+
+#: src/parted3/used_space.py:212
+#, python-format
+msgid "Can't detect used space of XFS partition %s"
+msgstr "Não foi possível detectar o espaço utilizado da partição XFS %s"
+
+#: src/rank_mirrors.py:54
+msgid "Can't find rank mirrors script"
+msgstr "Não foi possível encontrar o script que ranqueia os espelhos"
+
+#: src/rank_mirrors.py:61
+msgid "Couldn't execute auto mirroring selection"
+msgstr "Não foi possível executar a seleção de auto espelhamento"
+
+#: src/show_message.py:53
+msgid "KaOS Installer - Error"
+msgstr "Instalador do KaOS - Erro"
+
+#: src/show_message.py:65
+msgid "KaOS Installer - Warning"
+msgstr "Instalador do KaOS - Aviso"
+
+#: src/show_message.py:77
+msgid "KaOS Installer - Information"
+msgstr "Instalador do KaOS - Informação"
+
+#: src/show_message.py:88
+msgid "KaOS Installer - Confirmation"
+msgstr "Instalador do KaOS - Confirmação"
+
+#: src/slides.py:94 src/slides.py:109
+msgid ""
+"Installation finished!\n"
+"Do you want to restart your system now?"
+msgstr "Instalação finalizada!\nDeseja reiniciar seu sistema agora?"
+
+#: src/slides.py:102
+msgid "Installing KaOS..."
+msgstr "Instalando KaOS..."
+
+#: src/slides.py:107
+msgid "Please wait..."
+msgstr "Por favor aguarde..."
+
+#: src/slides.py:197
+msgid ""
+"IMPORTANT: There may have been a problem with the Grub(2) bootloader\n"
+"installation which could prevent your system from booting properly. Before\n"
+"rebooting, you may want to verify whether or not GRUB(2) is installed and\n"
+"configured. The KaOS Tutorials contain some info to re-configure:\n"
+"\thttp://kaosx.us/phpBB3/viewtopic.php?f=7&t=260\n"
+"\n"
+"Would you like to view the forum page now?"
+msgstr "IMPORTANTE: Pode ter havido um problema com a instalação do gerenciador de inicialização\nGrub(2) que pode impedir o seu sistema carregar propriamente. Antes de reiniciar, você pode\nquerer verificar se o GRUB(2) está ou não está instalado e configurado. Os Tutoriais do KaOS\ncontêm algumas informações para reconfigurar:\n        http://kaosx.us/phpBB3/viewtopic.php?f=7&t=260\n\nVocê gostaria de visualizar a página do fórum agora?"
+
+#: src/slides.py:234
+msgid "Do you want to retry?"
+msgstr "Deseja tentar novamente?"
+
+#: src/timezone.py:111
+msgid "Where are you?"
+msgstr "Onde você está?"
+
+#: src/timezone.py:116 ui/timezone.ui:35
+msgid "Zone:"
+msgstr "Zona:"
+
+#: src/timezone.py:120 ui/timezone.ui:78
+msgid "Region:"
+msgstr "Região:"
+
+#: src/timezone.py:124 ui/timezone.ui:104
+msgid "Use Network Time Protocol for clock synchronization:"
+msgstr "Utilize NTP para sincronizar o relógio do computador:"
+
+#: src/timezone.py:135
+#, python-format
+msgid "location changed to : %s"
+msgstr "localidade modificada para: %s"
+
+#: src/timezone.py:223
+msgid "Can't autodetect timezone coordinates"
+msgstr "Não é possível auto-detectar coordenadas do fuso horário"
+
+#: src/timezone.py:283
+msgid "Stopping timezone threads..."
+msgstr "Parando processos de fuso horário..."
+
+#: src/timezone.py:397
+msgid "Can't get the country code used to create a pacman mirrorlist"
+msgstr "Não é possível pegar o código do país usado para criar a lista de espelhos do pacman"
+
+#: src/user_info.py:92 ui/user_info.ui:35
+msgid "Your name:"
+msgstr "Seu nome:"
+
+#: src/user_info.py:96 ui/user_info.ui:206
+msgid "Your name"
+msgstr "Seu nome"
+
+#: src/user_info.py:100 ui/user_info.ui:328
+msgid "Hostname"
+msgstr "Nome do dispositivo"
+
+#: src/user_info.py:104 ui/user_info.ui:405
+msgid "Your computer's name:"
+msgstr "Nome do seu computador:"
+
+#: src/user_info.py:108 ui/user_info.ui:50
+msgid "Pick a username:"
+msgstr "Escolha um nome de usuário:"
+
+#: src/user_info.py:112 ui/user_info.ui:250
+msgid "Username"
+msgstr "Nome de usuário"
+
+#: src/user_info.py:116 ui/user_info.ui:65
+msgid "Choose a password:"
+msgstr "Escolha uma senha:"
+
+#: src/user_info.py:120 src/user_info.py:136 ui/user_info.ui:103
+#: ui/user_info.ui:573
+msgid "Password"
+msgstr "Senha"
+
+#: src/user_info.py:128 src/user_info.py:144 ui/user_info.ui:149
+#: ui/user_info.ui:634
+msgid "Confirm password"
+msgstr "Confirme senha"
+
+#: src/user_info.py:132 ui/user_info.ui:611
+msgid "Choose a root password:"
+msgstr "Escolha uma senha para o root:"
+
+#: src/user_info.py:140 ui/user_info.ui:684
+msgid "Confirm root password:"
+msgstr "Confirme a senha do root:"
+
+#: src/user_info.py:148
+msgid "Its name as it appears to other computers."
+msgstr "Seu nome como ele aparece para outros computadores"
+
+#: src/user_info.py:152
+msgid "You must enter a name"
+msgstr "Você deve digitar um nome"
+
+#: src/user_info.py:156
+msgid "You must enter a username"
+msgstr "Você deve digitar um nome de usuário"
+
+#: src/user_info.py:160 src/user_info.py:164
+msgid "You must enter a password"
+msgstr "Você deve digitar uma senha"
+
+#: src/user_info.py:168 ui/user_info.ui:473
+msgid "Log in automatically"
+msgstr "Logar automaticamente"
+
+#: src/user_info.py:169 ui/user_info.ui:490
+msgid "A password is required to log in"
+msgstr "Uma senha é exigida para logar"
+
+#: src/user_info.py:170 ui/user_info.ui:518
+msgid "Encrypt home folder"
+msgstr "Criptografar a pasta home"
+
+#: src/user_info.py:172
+msgid "Who are you?"
+msgstr "Quem é você?"
+
+#: src/user_info.py:180 ui/user_info.ui:544
+msgid "Show root password"
+msgstr "Mostrar senha do root"
+
+#: src/user_info.py:183 ui/user_info.ui:439
+msgid "Use a root password"
+msgstr "Usar uma senha para o root"
+
+#: src/user_info.py:252
+msgid ""
+"KaOS will use eCryptfs to encrypt your home directory. Unfortunately, eCryptfs does not handle sparse files well.\n"
+"\n"
+msgstr "KaOS irá usar eCryptfs para criptografar seu diretório home. Infelizmente, eCryptfs não trata bem arquivos esparsos.\n\n"
+
+#: src/user_info.py:253
+msgid ""
+"Don't worry, for most intents and purposes this deficiency does not pose a problem.\n"
+"\n"
+msgstr "Não se preocupe, para a maioria das fins e propósitos essa deficiência não representa um problema.\n\n"
+
+#: src/user_info.py:254
+msgid ""
+"Anyway, one popular and inadvisable application of eCryptfs is to encrypt a BitTorrent download location as this often requires eCryptfs to handle sparse files of 10 GB or more and may lead to intense disk starvation.\n"
+"\n"
+msgstr "De qualquer maneira, uma aplicação popular e desaconselhável do eCryptfs é criptografar um local de download BitTorrent, pois isso muitas vezes requer que eCryptfs lide com arquivos esparsos de 10 GB ou mais e pode levar a intensa utilização de disco.\n\n"
+
+#: src/user_info.py:255
+msgid ""
+"A simple workaround is to place sparse files in an unencrypted .Public directory\n"
+"\n"
+msgstr "Uma solução simples é colocar arquivos esparsos em um diretório Público não criptografado.\n\n"
+
+#: src/user_info.py:256
+msgid ""
+"Look at https://wiki.archlinux.org/index.php/ECryptfs for detailed information\n"
+"\n"
+msgstr "Veja https://wiki.archlinux.org/index.php/ECryptfs para informações detalhadas\n\n\n\n"
+
+#: src/user_info.py:257
+msgid "Are you sure you want to encrypt your home directory?\n"
+msgstr "Você tem certeza de que deseja criptografar o seu diretório home?\n"
+
+#: src/user_info.py:345
+msgid "Invalid characters entered"
+msgstr "Caracteres inválidos inseridos"
+
+#: src/user_info.py:349
+msgid "Username can't contain dots"
+msgstr "Nome de usuário não pode conter pontos"
+
+#: src/user_info.py:353
+msgid "Too many characters"
+msgstr "Muitos caracteres"
+
+#: ui/bootloader.ui:69
+msgid "What is your boot system type?"
+msgstr "Qual é o seu tipo de sistema de inicialização?"
+
+#: ui/bootloader.ui:98
+msgid "BIOS (common)"
+msgstr "BIOS (comum)"
+
+#: ui/bootloader.ui:120
+msgid "x86_64 UEFI"
+msgstr "x86_64 UEFI"
+
+#: ui/bootloader.ui:142
+msgid "i386 UEFI"
+msgstr "i386 UEFI"
+
+#: ui/bootloader.ui:169
+msgid "Choose 'Cancel' if you don't want to install a boot loader"
+msgstr "Escolha 'Cancelar' se você não quiser instalar o gerenciador de inicialização"
+
+#: ui/check.ui:29
+msgid ""
+"<span weight=\"bold\" size=\"large\">For best results, please ensure that "
+"this computer:</span>"
+msgstr "<span weight=\"bold\" size=\"large\">Para melhores resultados, certifique-se de que este computador:</span>"
+
+#: ui/check.ui:108
+msgid ""
+"(*) This is the absolute minimal to install, at least 25Gb is recommended."
+msgstr "(*) Este é o mínimo absoluto para instalar, pelo menos 25GB é recomendado."
+
+#: ui/installation_advanced.ui:84
+msgid "Partition table type:"
+msgstr "Tipo de tabela de partições:"
+
+#: ui/installation_advanced.ui:155
+msgid "Edit partition"
+msgstr "Editar partição"
+
+#: ui/installation_advanced.ui:317 ui/installation_advanced.ui:774
+msgid "Encryption options..."
+msgstr "Opções de criptografia..."
+
+#: ui/installation_advanced.ui:383
+msgid "Create partition"
+msgstr "Criar partição"
+
+#: ui/installation_advanced.ui:423
+msgid "Location:"
+msgstr "Localização:"
+
+#: ui/installation_advanced.ui:607
+msgid "MB"
+msgstr "MB"
+
+#: ui/installation_advanced.ui:895
+msgid "New Partition Table"
+msgstr "Nova Tabela de Partições"
+
+#: ui/installation_advanced.ui:948
+msgid "Mount Checklist:"
+msgstr "Lista de Montagem:"
+
+#: ui/installation_advanced.ui:1103
+msgid "LVM..."
+msgstr "LVM..."
+
+#: ui/installation_advanced.ui:1256
+msgid "LUKS volume name:"
+msgstr "Nome do volume LUKS:"
+
+#: ui/installation_advanced.ui:1270
+msgid "Password:"
+msgstr "Senha:"
+
+#: ui/installation_advanced.ui:1284
+msgid "Confirm password:"
+msgstr "Confirme senha:"
+
+#: ui/installation_advanced.ui:1313
+msgid "Use LUKS encryption: "
+msgstr "Usar criptografia LUKS:"
+
+#: ui/installation_alongside.ui:16
+msgid ""
+"<span size=\"large\">Choose which OS you want to install KaOS next to</span>"
+msgstr "<span size=\"large\">Escolha perto de qual SO você deseja instalar o KaOS</span>"
+
+#: ui/installation_alongside.ui:90
+msgid "Choose the new size"
+msgstr "Escolha o novo tamanho"
+
+#: ui/installation_alongside.ui:157
+msgid "Other OS"
+msgstr "Outro SO"
+
+#: ui/installation_alongside.ui:169
+msgid "KaOS"
+msgstr "KaOS"
+
+#: ui/installation_alongside.ui:193 ui/installation_alongside.ui:205
+#: ui/slides.ui:74
+msgid "label"
+msgstr "rótulo"
+
+#: ui/installation_ask.ui:58
+msgid ""
+"<span weight=\"light\" size=\"small\">Warning: This will delete all "
+"programs, documents, photos, music and any other files on your disk</span>"
+msgstr "<span weight=\"light\" size=\"small\">Atenção: Isto irá apagar todos os programas, documentos, fotos, músicas e outros arquivos em seu disco</span>"
+
+#: ui/installation_ask.ui:70
+msgid "Encrypts the new KaOS installation for better security"
+msgstr "Criptografa a nova instalação do KaOS para mais segurança"
+
+#: ui/installation_ask.ui:91
+msgid ""
+"<span weight=\"light\" size=\"small\">You will be asked for the encryption "
+"key in the next step</span>"
+msgstr "<span weight=\"light\" size=\"small\">Você será solicitado para a chave de criptografia na próxima etapa</span>"
+
+#: ui/installation_ask.ui:102
+msgid "Use LVM with the new KaOS installation"
+msgstr "Usar LVM com a nova instalação do KaOS"
+
+#: ui/installation_ask.ui:123
+msgid ""
+"<span weight=\"light\" size=\"small\">This will set up LVM allowing you to "
+"make snapshots and change partition sizes in a straightforward way</span>"
+msgstr "<span weight=\"light\" size=\"small\">Isto irá configurar LVM permitindo que você faça snapshots e mude o tamanho das partições de uma forma simples</span>"
+
+#: ui/installation_ask.ui:155
+msgid ""
+"<span weight=\"light\" size=\"small\">This will setup your /home directory "
+"in a different partition or volume.</span>"
+msgstr "<span weight=\"light\" size=\"small\">Isto irá configurar o seu diretório /home em uma partição ou volume diferente</span>"
+
+#: ui/installation_ask.ui:166
+msgid "Install alongside other OSes"
+msgstr "Instalar em conjunto com outros SOs"
+
+#: ui/installation_ask.ui:192
+msgid ""
+"<span weight=\"light\" size=\"small\">With this option you will be "
+"installing KaOS alongside one of the other OSes you already have "
+"installed.</span>"
+msgstr "<span weight=\"light\" size=\"small\">Com esta opção você irá instalar o KaOS em conjunto com outros Sistemas Operacionais que você já tem instalado.</span>"
+
+#: ui/installation_ask.ui:204
+msgid "Manage your partitions and choose where to install KaOS (advanced)"
+msgstr "Gerenciar suas partições e escolher onde instalar KaOS (avançado)"
+
+#: ui/installation_ask.ui:230
+msgid ""
+"<span weight=\"light\" size=\"small\">You will be able to create/delete "
+"partitions, choose where to install KaOS and also choose additional mount "
+"points.</span>"
+msgstr "<span weight=\"light\" size=\"small\">Você será capaz de criar/apagar partições, escolher onde instalar Kaos e também escolher pontos de montagem adicionais.</span>"
+
+#: ui/installation_automatic.ui:38
+msgid ""
+"<b>WARNING! This installation mode will overwrite everything on your "
+"drive!</b>"
+msgstr "<b>ATENÇÃO! Este modo de instalação irá substituir tudo no seu disco!</b>"
+
+#: ui/language.ui:26
+msgid "<span weight=\"bold\">Please choose your language:</span>"
+msgstr "<span weight=\"bold\">Por favor escolha o seu idioma:</span>"
+
+#: ui/language.ui:89
+msgid ""
+"<span weight='bold'>Notice: This Installer is beta software.</span>\n"
+"\n"
+"It is beta software that is under active development. It does not yet properly handle RAID, btrfs subvolumes, or other advanced setups. Please proceed with caution as data loss is possible! \n"
+"\n"
+"If you find any bug, please, visit <a href='https://github.com/KaOSx/thus/issues'>installer issues</a>"
+msgstr "<span weight='bold'>Aviso: Este instalador é um programa beta.</span>\n\nÉ um programa beta que está em desenvolvimento ativo. Ele ainda não trata  RAID, subvolumes Btrfs, ou outras configurações avançadas adequadamente. Por favor, proceda com cuidado, pois é possível a perda de dados!\n\nSe você encontrar algum defeito, por favor, visite <a href='https://github.com/KaOSx/thus/issues'>Problemas com o instalador</a>"
+
+#: ui/thus.ui:37
+msgid "<span weight=\"bold\" size=\"large\">Welcome to KaOS</span>"
+msgstr "<span weight=\"bold\" size=\"large\">Bem vindo ao KaOS</span>"
+
+#: ui/user_info.ui:119 ui/user_info.ui:589
+msgid "<small><span color=\"darkgreen\">Strong password</span></small>"
+msgstr "<small><span color=\"darkgreen\">Senha altamente segura</span></small>"
+
+#: ui/user_info.ui:177 ui/user_info.ui:662
+msgid "<small><span color=\"darkred\">You must enter a password</span></small>"
+msgstr "<small><span color=\"darkred\">Você deve digitar uma senha</span></small>"
+
+#: ui/user_info.ui:278
+msgid "<small><span color=\"darkred\">You must enter a username</span></small>"
+msgstr "<small><span color=\"darkred\">Você deve digitar um nome de usuário</span></small>"
+
+#: ui/user_info.ui:356
+msgid "<small><span color=\"darkred\">You must enter a name</span></small>"
+msgstr "<small><span color=\"darkred\">Você deve digitar um nome</span></small>"
+
+#: ui/user_info.ui:378
+msgid "<span size=\"small\">Its name as it appears to other computers.</span>"
+msgstr "<span size=\"small\">Seu nome como aparece para outros computadores.</span>"

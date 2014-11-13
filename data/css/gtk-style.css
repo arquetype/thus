@@ -1,0 +1,9 @@
+#header {
+    background-color: #bdc3c7; /*backup for KDE*/
+    /*color: #fc9f25;*/
+    /*background-image:url('/usr/share/thus/data/background.png');*/
+    color: #383838;
+    font-size: 14px;
+    font-family: "Arial",Georgia,Serif;
+    /*font-family: "Futura Md BT"; This doesn't work*/
+}

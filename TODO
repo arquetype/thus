@@ -1,0 +1,29 @@
+THUS TODO LIST (17 May 2013)
+
+* General:
+ - Check all file paths (os.path.join)
+ - Check if we can remove subprocess calls to pythonian code
+
+* Installer_advanced screen:
+ - If you play with the partitioner (create partition, delete it, create it
+   again, delete it again...) in the end it gets confused.
+
+* Timezone screen:
+ - Add NTP switch
+
+* Keyboard screen:
+ - Doesn't sort words that have accents (arcnexus fixed it, needs testing)
+
+* Slide screen:
+ - Not all the installer events (messages) are shown. pac.py generates
+   too many messages
+
+Alongside branch:
+* Autodetect already installed OSes (see bootinfo.py)
+* Add a new install option: install alongside other OSes.
+
+FUTURE:
+* Remove Easy install option?
+* EFI support
+* LVM
+* Be able to encrypt home directory

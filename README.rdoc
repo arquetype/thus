@@ -1,0 +1,1 @@
+making installer of manjaro for future arch distros

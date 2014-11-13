@@ -1,0 +1,105 @@
+#page{
+    overflow: hidden;
+}
+
+.cb-slideshow,
+.cb-slideshow:after { 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0; 
+}
+
+.cb-slideshow li span { 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: none;
+    opacity: 0;
+    z-index: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 90s infinite;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+
+.cb-slideshow li:nth-child(1) span { 
+    background-image: url(../images/1.png);
+}
+.cb-slideshow li:nth-child(2) span { 
+    background-image: url(../images/2.png);
+    -webkit-animation-delay: 18s;
+}
+.cb-slideshow li:nth-child(3) span { 
+    background-image: url(../images/3.png);
+    -webkit-animation-delay: 36s;
+}
+.cb-slideshow li:nth-child(4) span { 
+    background-image: url(../images/4.png);
+    -webkit-animation-delay: 54s;
+}
+.cb-slideshow li:nth-child(5) span { 
+    background-image: url(../images/5.png);
+    -webkit-animation-delay: 72s;
+}
+
+/* Animation for the slideshow images */
+@-webkit-keyframes imageAnimation { 
+    0% { opacity: 0; }
+    5% { opacity: 1; }
+    30% { opacity: 1; }
+    30% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+html,body {
+    margin:0;
+    padding:0;
+}
+
+fieldset,img { 
+    border:0;
+}
+
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border:0;
+}
+/* General Demo Style */
+body{
+    background-image: url(../images/background.png);
+    background-color: #f2f2f2;
+    font-weight: 400;
+    font-size: 15px;
+    color: #3498db;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}

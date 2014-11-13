@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ $(which sudo) ]; then
+	sudo -E /usr/bin/env python3 /usr/share/thus/thus.py ${@}
+else
+    # do UID checking here so someone can at least get usage instructions
+    if [ "$EUID" != "0" ]; then
+        echo "error: thus must be run as root."
+        exit 1
+    fi
+fi
