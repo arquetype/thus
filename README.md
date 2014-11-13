@@ -1,6 +1,6 @@
 # Thus
 
-Graphical Installer for KaOS, forked from Manjaro Linux
+Graphical Installer for Arquetype, forked from Manjaro Linux
 
 ## Dependencies
 
